@@ -1,0 +1,20 @@
+export const palette = {
+    celeste: "#AFECE7",
+    dimGray: "#626868",
+    taupeGray: "#939196",
+    aquamarine: "#B5FFE9",
+    licorice: "#0D0106",
+    aquamarine2: "#94ECBE",
+    flax: "#FFEE93",
+    gunmetalB: "#022B3A",
+    teal: "#1F7A8C",
+    babyBlue: "#BFDBF7",
+    white: "#FFFFFF",
+    grayGreen: "#CFD7C7",
+    drywall: "#E8E5DA",
+    cerulean: "#007EA7",
+    roseTea: "#E2B1B1",
+    black: "#000000",
+    errorRed1: "#FF9494",
+    errorRed2: "#FF0000"
+}
