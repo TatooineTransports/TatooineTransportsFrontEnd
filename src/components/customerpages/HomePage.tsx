@@ -24,7 +24,7 @@ function HomePage() {
 
   const classes = useStyles();
   const user = useContext(AuthContext);
-  //const url = "https://23c6-35-229-53-249.ngrok-free.ap"//"https://93e4-104-54-111-86.ngrok-free.app"
+  //const url = "https://localhost:7093"//"https://93e4-104-54-111-86.ngrok-free.app"
 
   return (
     <> {!user ? (<LandingPage />) : (

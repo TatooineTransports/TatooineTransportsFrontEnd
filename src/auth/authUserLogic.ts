@@ -1,7 +1,7 @@
 import { auth } from "./firebaseSetup";
 import axios from 'axios';
 
-const url = "https://23c6-35-229-53-249.ngrok-free.ap";
+const url = "https://localhost:7093";
 
 const signUpValidation = async (data: any) => {
     try {
