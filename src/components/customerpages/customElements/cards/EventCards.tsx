@@ -42,7 +42,7 @@ const EventCard: React.FC<SearchCardProps> = (props) => {
     const classes = useStyles();
     const navigate = useNavigate();
     const [open, setOpen] = React.useState(false);
-    const url = "https://23c6-35-229-53-249.ngrok-free.ap"
+    const url = "https://localhost:7093"
 
 
     const handleDelete = useCallback(async (id: string) => {

@@ -18,7 +18,7 @@ function VacationPage() {
   const [vacation, setVacation] = useState(Object);
   const [open, setOpen] = React.useState(false);
   const [list, setList] = useState(<List></List>);
-  const url = "https://23c6-35-229-53-249.ngrok-free.ap";
+  const url = "https://localhost:7093";
 
   const loadUserInfo = useCallback(async () => {
     const uid = user?.uid;
